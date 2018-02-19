@@ -1,4 +1,5 @@
 Fun commands:
+l.meme random meme
 l.slap slap someone
 l.hug hug someone
 l.cat send cat image
@@ -7,8 +8,17 @@ l.flipcoin Returns "Heads" or "Tails"
 l.urban [word] Pulls information from Urban Dictionary about the word requested.
 l.continued [@user] Makes avatar into a to be continued meme
 l.cnjoke tell chuck norris joke
+l.dadjoke tell dad joke
+l.jeff My name is jeff
+l.pixel [@user] Applies the pixel effect to the avatar of user.
+l.achievement "title" "description"  create a Image with a look of minecraft achievement
+l.ascii [text] just an ascii command
+l.brazzers [@user] add a brazzers logo to the mentioned avatar
+l.richembed "title" "imageURL" "hex color" "description" create embed message
+l.jail [@user] put jail bars over mentioned user's profile pictur
 Music commands:
 l.play play song
+l.search search for song and play it (1-4 selection)
 l.stop stop the music
 l.skip skip the playing song
 l.pause pause the music
@@ -16,7 +26,6 @@ l.resume resume the music
 l.connect connect the bot to the correct voice channel
 l.disconnect disconnet the bot from voice channel
 l.volume [1-100] set the music volume
-l.search search for video at youtube
 l.clearqueue clear the queue
 General Commands:
 l.help Lists available commands
@@ -27,8 +36,14 @@ l.avatar [@user] Get the mention user avatar
 l.announce [#channel] [message] create embed announcement
 l.poll [Question] Create a poll
 l.bugreport [the bug] Found a bug? Please let us now
-l.discordbot [botID] Information about bot, work only if he listed in discordbots.org
+l.discordbot [@bot] Information about bot, work only if he listed in discordbots.org
 l.weather just a weather command
+l.imdb [movie name] Info about movie from IMDb
+l.report [@user] [reason] submit report and send it to the currect server's owner
+l.say [text] just a say command
+l.bitcoin bitcoin rates
+l.suggest [text] post suggestion in "suggestions" channel (works on if this channel exists)
+l.google [keyword] find top 5 results
 Info Commands:
 l.userinfo [@user] Info about the mentioned user
 l.serverinfo Info about the currect server
@@ -40,9 +55,11 @@ l.membercount say how many members there is in the correct server
 Moderation Commands:
 l.purge [1-100] Delete amount of messages
 l.ban [@user]  [reason] ban user
-l.kick [@user] [reason] kick user
+l.kick [@user] kick user
 l.warn [@user] [reason] warn user
-l.mute [@user] [1-10000 minutes] Mute user
+l.warnings [@user] Display warnings of specific user
+l.clearwarns [@user] Clear all warnings of specific user
+l.mute [@user] Mute user
 l.unmute [@user] Unmute user
 Role control:
 l.addrole [rolename] add role
@@ -72,4 +89,3 @@ l.profile [@user] for see your profile or other user profile
 l.settitle [text] for set your title
 l.setinfo [text] for set your information
 l.profile help FAQ about the profiles system
-l.rep [@user] give rep point to mentioned user
